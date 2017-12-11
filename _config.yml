@@ -1,0 +1,60 @@
+title: '봐서 좋을 것 없을 만한 잉여블로그'
+description: '몰라. 글을 저장해둬야 하는데 블로그가 없었어''
+keyword: 'Kotlin, Java, js, nodejs, python, '
+url: 'http://do-you-know-yuna.kim'
+
+baseurl: ''
+
+nav:
+  home: '/'
+  tags: '/tags.html'
+
+author: '이창선'
+nickname: 'LNTCS'
+bio: '개발자, 히키니트, 시공조아'
+avatar: '/assets/img/profile.png'
+
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# Comments
+disqus: false
+disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+# Share
+social-share: false
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  facebook: '//www.facebook.com/LNTCS97'
+  github: '//github.com/LNTCS'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+RSS: false
+
+# Plugins
+gems: [jekyll-paginate]
