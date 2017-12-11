@@ -1,14 +1,18 @@
+# Site settings 配置站点
 title: '봐서 좋을 것 없을 만한 잉여블로그'
-description: '몰라. 글을 저장해둬야 하는데 블로그가 없었어''
-keyword: 'Kotlin, Java, js, nodejs, python, '
-url: 'http://do-you-know-yuna.kim'
+description: '몰라. 글을 저장해둬야 하는데 블로그가 없었어'
+keyword: 'Kotlin, Java, js, nodejs, python'
+url: 'http://do-you-know-yuna.kim' # your host
 
+# if you don't need baseurl, you should leave this value blank.
 baseurl: ''
 
+# Navigation links
 nav:
   home: '/'
   tags: '/tags.html'
 
+# Author 配置博主信息
 author: '이창선'
 nickname: 'LNTCS'
 bio: '개발자, 히키니트, 시공조아'
