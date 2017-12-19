@@ -1,4 +1,6 @@
-/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+bash+coffeescript+go+java+php+python+sass+scss+swift */
+/* PrismJS 1.9.0
+http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+bash+coffeescript+go+java+kotlin+php+python+sass+scss+swift&plugins=line-numbers */
+
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -29,6 +31,7 @@ pre[class*="language-"] {
 }
 
 /* Code blocks */
+
 pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
@@ -42,6 +45,7 @@ pre[class*="language-"] {
 }
 
 /* Inline code */
+
 :not(pre) > code[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
@@ -113,6 +117,7 @@ pre[class*="language-"] {
 .token.bold {
 	font-weight: bold;
 }
+
 .token.italic {
 	font-style: italic;
 }
@@ -121,3 +126,45 @@ pre[class*="language-"] {
 	cursor: help;
 }
 
+pre.line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+
+pre.line-numbers > code {
+	position: relative;
+	white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em;
+	/* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.line-numbers-rows > span {
+	pointer-events: none;
+	display: block;
+	counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}
