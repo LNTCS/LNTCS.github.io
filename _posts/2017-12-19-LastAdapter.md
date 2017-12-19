@@ -15,7 +15,7 @@ tags: 안드소전
 [LastAdapter Github](https://github.com/nitrico/LastAdapter) 
 에서 상세한 내용을 살펴볼 수 있다.<br>
 
-이 글을 작성하는 기준상 최신이 `2.3.0` 이기에
+이 글을 작성하는 기준상 최신이 `2.3.0` 이기에<br>
 `compile 'com.github.nitrico.lastadapter:lastadapter:2.3.0'` 구문을 dependencies 에 추가한다.
 
 #### build.gradle (Module: app)
