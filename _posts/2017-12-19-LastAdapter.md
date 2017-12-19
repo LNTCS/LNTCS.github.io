@@ -104,7 +104,7 @@ class User(var name: String, var email: String, var color: String){
 </layout>
 ```
 대충
-![user_item](http://do-you-know-yuna.kim/assets/img/171219/user_item.png)
+![item_user](http://do-you-know-yuna.kim/assets/img/171219/item_user.png)
 이렇게 생긴 리스트 아이템이다.<br><br>
 
 
