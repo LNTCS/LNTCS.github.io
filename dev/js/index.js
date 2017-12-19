@@ -244,16 +244,16 @@ $(document).ready(function () {
 	/**
 	 * Copy and copyright
 	 */
-	function setClipboardData(str) {
-		$('.post-content').on('copy', function (e) {
-			var data = window.clipboardData || e.originalEvent.clipboardData;
-			data.setData('text/plain', str);
-			e.preventDefault();
-		});
-	}
-	$('.post-content').on('mouseup', function (e) {
-		var txt = window.getSelection();
-		setClipboardData(txt);
-	});
+	//	function setClipboardData(str) {
+	//		$('.post-content').on('copy', function (e) {
+	//			var data = window.clipboardData || e.originalEvent.clipboardData;
+	//			data.setData('text/plain', str);
+	//			e.preventDefault();
+	//		});
+	//	}
+	//	$('.post-content').on('mouseup', function (e) {
+	//		var txt = window.getSelection();
+	//		setClipboardData(txt);
+	//	});
 
 });
