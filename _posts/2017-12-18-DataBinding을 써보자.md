@@ -129,7 +129,7 @@ class User(var name: String, var email: String, var count: Int)
 ```
 이후 데이터를 `MainActivity.kt` 에서 넣어주면 된다.
 #### MainActivity.kt
-```kotlin
+```javascript
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 		var binding = 
