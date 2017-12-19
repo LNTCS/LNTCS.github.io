@@ -33,6 +33,8 @@ dependencies {
     kapt 'com.android.databinding:compiler:3.0.1' // gradle 버전
 	....
     implementation 'com.github.nitrico.lastadapter:lastadapter:2.3.0'
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+    implementation 'com.android.support:support-v4:27.0.2'
 }
 ```
 우선은 리스트에서 쓸 데이터 클래스를 만들어 준다.
