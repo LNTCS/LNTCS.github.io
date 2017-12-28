@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="osun_space_height">24dp</dimen>
+    <dimen name="osun_margin">12dp</dimen>
+    <dimen name="osun_line_border">1dp</dimen>
+
+    <dimen name="note_width">64dp</dimen>
+    <dimen name="note_height">101dp</dimen>
+</resources>
